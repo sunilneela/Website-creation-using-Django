@@ -1,0 +1,29 @@
+Microsoft Windows [Version 10.0.18362.657]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+C:\Users\neela>cd Envs
+
+C:\Users\neela\Envs>workon mysubject
+(mysubject) C:\Users\neela\Envs>cd
+C:\Users\neela\Envs
+
+(mysubject) C:\Users\neela\Envs>cd ..
+
+(mysubject) C:\Users\neela>cd myapp
+
+(mysubject) C:\Users\neela>myapp>python manage.py startapp personalweb
+
+(mysubject) C:\Users\neela\myapp>python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 17 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+March 03, 2020 - 23:32:30
+Django version 3.0.3, using settings 'myapp.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+
